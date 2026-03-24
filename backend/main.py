@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = os.getenv("OPENWEATHER_API_KEY", "6963cfe32246ce3581a8d8ef2f3abdc7")
+API_KEY = os.getenv("OPENWEATHER_API_KEY", "Key")
 BASE_URL = "https://api.openweathermap.org/data/2.5"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/reverse"
 
